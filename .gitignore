@@ -1,0 +1,9 @@
+/*
+!/pages
+!/themes
+!/plugins
+!/config
+!/data
+!.gitignore
+config/plugins/git-sync.yaml
+plugins/git-sync/
