@@ -1,0 +1,19 @@
+title: 'NBIS - National Bioinformatics Infrastructure Sweden'
+default_lang: en
+author:
+  name: NBIS
+  email: nbis@nbis.se
+taxonomies:
+  - category
+  - tag
+metadata:
+  description: 'NBIS (National Bioinformatics Infrastructure Sweden) is a distributed national research infrastructure supported by the Swedish Research Council (Vetenskapsrådet), Science for Life Laboratory, all major Swedish universities and the Knut and Alice Wallenberg Foundation, providing state-of-the-art bioinformatics to the Swedish life science researchers community. NBIS is also the Swedish contact point to the European infrastructure for biological information ELIXIR.'
+summary:
+  enabled: true
+  format: short
+  size: 300
+  delimiter: '==='
+redirects: null
+routes: null
+blog:
+  route: /blog

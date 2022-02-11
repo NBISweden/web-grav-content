@@ -1,0 +1,9 @@
+enabled: true
+generate:
+  output_url: null
+  output_path: null
+  routes: null
+  simultaneous: null
+  assets: null
+  force: null
+  button: null

@@ -1,0 +1,33 @@
+enabled: true
+index: 'user://data/persist'
+content: 'user://data/persist'
+content_max_length: 100000
+content_permissions:
+  - admin.super
+  - admin.maintenance
+admin: true
+js: true
+css: true
+quick_tray: true
+quick_tray_permissions:
+  - admin.super
+  - admin.maintenance
+presets:
+  -
+    name: default
+    route: null
+    target: null
+    root_prefix: null
+    parameters: null
+    filters: null
+    assets: null
+    static_assets: null
+    images: null
+route: null
+target: null
+root_prefix: /nbis_static/
+assets: '1'
+static_assets: '1'
+images: '1'
+parameters: null
+filters: null
