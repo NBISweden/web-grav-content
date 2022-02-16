@@ -4,6 +4,7 @@ visible: true
 permissions:
     authors:
         - dahlo
+    inherit: false
 ---
 
     
