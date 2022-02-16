@@ -8,7 +8,7 @@ visible: true
    
   
 
-NBIS is a distributed national bioinformatics infrastructure, supporting life sciences in Sweden 
+NBISS is a distributed national bioinformatics infrastructure, supporting life sciences in Sweden 
 
 ##### Support
 
