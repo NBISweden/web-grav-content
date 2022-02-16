@@ -1,6 +1,9 @@
 ---
 title: Home
 visible: true
+permissions:
+    authors:
+        - dahlo
 ---
 
     
