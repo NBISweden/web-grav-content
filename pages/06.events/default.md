@@ -7,10 +7,10 @@ media_order: 'clipboard.js,CMOS.js,cpux86-ta.js,cpux86-ta.original.js,index.html
 # Search
 Trying out the search function.
 
-# IImage formatting
+# Image formatting
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
-[IMG20220116182418](IMG20220116182418.jpg?classes=float-left&resize=200,200 "Where does this go?")
+![IMG20220116182418](IMG20220116182418.jpg?classes=float-left&resize=200,200 "Where does this go?")
 
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
