@@ -1,6 +1,6 @@
 version: '1.1'
-timestamp: 1651484398
-count: 3
+timestamp: 1651484662
+count: 4
 index:
   dahlo:
     storage_key: dahlo
@@ -12,6 +12,11 @@ index:
     storage_timestamp: 1644583387
     key: nbis
     email: nbis@dahlo.se
+  norling:
+    storage_key: norling
+    storage_timestamp: 1651484660
+    key: norling
+    email: martin.norling@nbis.se
   sysdev:
     storage_key: sysdev
     storage_timestamp: 1651484394
