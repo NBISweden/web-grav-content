@@ -1,12 +1,17 @@
 version: '1.1'
-timestamp: 1651484662
-count: 4
+timestamp: 1651485347
+count: 5
 index:
   dahlo:
     storage_key: dahlo
     storage_timestamp: 1644582731
     key: dahlo
     email: m.dahlo@gmail.com
+  konere10:
+    storage_key: konere10
+    storage_timestamp: 1651485344
+    key: konere10
+    email: konere10@nbis.se
   nbis:
     storage_key: nbis
     storage_timestamp: 1644583387
