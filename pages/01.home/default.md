@@ -7,10 +7,6 @@ permissions:
     inherit: false
 ---
 
-    
-
-   
-  
 
 NBIS is a distributed national bioinformatics infrastructure, supporting life sciences in Sweden 
 
