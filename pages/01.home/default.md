@@ -7,9 +7,8 @@ permissions:
     inherit: false
 ---
 
-
 NBIS is a distributed national bioinformatics infrastructure, supporting life sciences in Sweden.
-Testing gitsync
+
 ##### Support
 
 Support services ranging from short consultation, consultancy to long-term embedded bioinformaticians.
