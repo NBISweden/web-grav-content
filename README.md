@@ -30,4 +30,8 @@ To get your own instance of the web site up and running follow these steps:
    mkdir user/accounts
    ```
    
-1. Done. Start your server if it is not already started and connect to it.
+1. Done. Start your server if it is not already started,
+   ```bash
+   docker-compose up -d
+   ```
+    and connect to it with a web browser, http://localhost
