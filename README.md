@@ -11,21 +11,23 @@ The [Grav](https://getgrav.org/) based version of the NBIS homepage is composed 
 
 To get your own instance of the web site up and running follow these steps:
 
-1. Clone the [nginx_letsencrypt_php](https://github.com/NBISweden/nginx_letsencrypt_php) repo and follow the instructions in that repos README.md to set it up. Make sure to uncomment all lines in `data/php-fpm/Dockerfile` that is installing/modifying things, as the examples are the dependencies for Grav. They start with either `#RUN apk` or `#RUN docker-php-ext-install`
+1. Clone the [nginx_letsencrypt_php](https://github.com/NBISweden/nginx_letsencrypt_php) repo and follow the instructions in that repos README.md to set up either a SSL enabled server with a DNS name or a plain http server without a DNS name. Make sure to uncomment all lines in `data/php-fpm/Dockerfile` that is installing/modifying things, as the examples are the dependencies for Grav. They start with either `#RUN apk` or `#RUN docker-php-ext-install`
     ```bash
     git clone https://github.com/NBISweden/nginx_letsencrypt_php.git
+    cd nginx_letsencrypt_php
+    nano/vim/emacs data/php-fpm/Dockerfile
     ```
 
 1. Clone the [web-grav-base](https://github.com/NBISweden/web-grav-base) repo into the html folder.
     ```bash
-    rm html/.gitkeep ; git clone https://github.com/NBISweden/web-grav-base.git html 
+    rm html/.gitkeep ; git clone https://github.com/NBISweden/web-grav-base.git html
+    cd html
     ````
     
-1. Clone the [web-grav-content](https://github.com/NBISweden/web-grav-content) repo into the user folder.
+1. Clone the [web-grav-content](https://github.com/NBISweden/web-grav-content) repo into the user folder. Also create the `accounts` folder since this folder is ignored in `web-grav-content` to avoid user credentials being made public, and Grav will not start unless it exists.
    ```bash
-   cd html ; rm user/.gitkeep ; git clone https://github.com/NBISweden/web-grav-content.git user
+   rm user/.gitkeep ; git clone https://github.com/NBISweden/web-grav-content.git user
+   mkdir user/accounts
    ```
    
-1. Done, connect to your server.
-
-TBC
+1. Done. Start your server if it is not already started and connect to it.
