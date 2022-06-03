@@ -34,4 +34,4 @@ To get your own instance of the web site up and running follow these steps:
    ```bash
    docker-compose up -d
    ```
-    and connect to it with a web browser, http://localhost
+    and connect to it with a web browser, http://localhost, or whichever DNS name you gave it.
