@@ -1,3 +1,4 @@
+
 /*
 !/pages
 !/themes
@@ -5,5 +6,15 @@
 !/config
 !/data
 !.gitignore
+
 config/plugins/git-sync.yaml
 plugins/git-sync/
+data/flex/indexes/accounts.yaml             
+data/feed/
+data/notifications/
+data/scheduler/
+plugins/admin/*
+
+## Ides
+.idea/*
+
