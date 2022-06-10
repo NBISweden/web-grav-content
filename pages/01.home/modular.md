@@ -6,7 +6,14 @@ permissions:
         - dahlo
     inherit: false
 content:
-    items: '@self.modular'
+    items:
+        - '@self.modular'
+    limit: 5
+    order:
+        by: date
+        dir: desc
+    pagination: true
+    url_taxonomy_filters: true
 ---
 
 NBIS is a distributed national bioinformatics infrastructure, supporting life sciences in Sweden.
