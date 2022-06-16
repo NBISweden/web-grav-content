@@ -14,7 +14,9 @@ To quickly get a local instance of Grav up and running, use the `docker-compose.
 USER_ID="$(id -u)" GROUP_ID="$(id -g)" docker-compose up -d
 ```
 
-which will start a container provided by linuxserver.io that will serve the page on localhost:8888. It will use the current user's id and group id when modifying the files in the repo to avoid ownership issues when working both through the command-line and web UI.
+which will start a container provided by linuxserver.io that will serve the page on [localhost:8888](localhost:8888). It will use the current user's id and group id when modifying the files in the repo to avoid ownership issues when working both through the command-line and web UI.
+
+The first time you connect and create your user account, the redirection after user creation does not keep the port number in the url, so you might get a "Unable to connect" error. In that case just add `:8888` in the url manually [https://localhost:8888/admin](https://localhost:8888/admin).
 
 
 ## Production
