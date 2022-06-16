@@ -21,7 +21,7 @@ The first time you connect and create your user account, the redirection after u
 
 ## Production
 
-To get your own instance of the web site up and running follow these steps:
+To get your own production-grade instance of the web site up and running follow these steps:
 
 1. Clone the [nginx_letsencrypt_php](https://github.com/NBISweden/nginx_letsencrypt_php) repo and follow the instructions in that repos README.md to set up either a SSL enabled server with a DNS name or a plain http server without a DNS name. Make sure to uncomment all lines in `data/php-fpm/Dockerfile` that is installing/modifying things, as the examples are the dependencies for Grav. They start with either `#RUN apk` or `#RUN docker-php-ext-install`
     ```bash
