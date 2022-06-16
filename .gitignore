@@ -12,3 +12,11 @@ data/flex/*
 data/notifications/*
 config/plugins/git-sync.yaml
 plugins/git-sync/
+data/feed/
+data/notifications/
+data/scheduler/
+
+## Ides
+.idea/*
+*.swp
+
