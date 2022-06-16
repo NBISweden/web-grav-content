@@ -7,7 +7,17 @@ The [Grav](https://getgrav.org/) based version of the NBIS homepage is composed 
 1. [web-grav-content](https://github.com/NBISweden/web-grav-content), the `user` folder in the Grav installation which contains all files that are created or modified when using Grav.
 1. [nbis-static.github.io](https://github.com/nbis-static/nbis-static.github.io), where the static html dump of the Grav site is served from, for now. This might very well change to another location in the future. Live version of these files here: [nbis-static.github.io](https://nbis-static.github.io/)
 
+
 ## Development
+To quickly get a local instance of Grav up and running, use the `docker-compose.yml` file in this repo.
+```bash
+USER_ID="$(id -u)" GROUP_ID="$(id -g)" docker-compose up -d
+```
+
+which will start a container provided by linuxserver.io that will serve the page on localhost:8888. It will use the current user's id and group id when modifying the files in the repo to avoid ownership issues when working both through the command-line and web UI.
+
+
+## Production
 
 To get your own instance of the web site up and running follow these steps:
 
