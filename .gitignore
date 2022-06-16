@@ -5,5 +5,10 @@
 !/config
 !/data
 !.gitignore
+!docker-compose.yml
+!README.md
+data/scheduler/
+data/flex/*
+data/notifications/*
 config/plugins/git-sync.yaml
 plugins/git-sync/

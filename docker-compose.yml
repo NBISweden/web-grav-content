@@ -1,0 +1,13 @@
+version: '3' 
+services:
+  grav:
+    image: linuxserver/grav:1.7.33
+    container_name: grav
+    environment:
+        - PUID=${USER_ID}
+        - PGID=${GROUP_ID}
+        - TZ=Europe/Stockholm
+    volumes:
+      - .:/config/www/user
+    ports:
+      - 8888:80
