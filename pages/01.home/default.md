@@ -6,8 +6,7 @@ permissions:
         - dahlo
     inherit: false
 content:
-    items:
-        - '@self.modular'
+    items: '@self.modular'
     limit: 5
     order:
         by: date
