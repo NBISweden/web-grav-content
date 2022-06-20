@@ -1,0 +1,29 @@
+version: '1.1'
+timestamp: 1655439084
+count: 5
+index:
+  dahlo:
+    storage_key: dahlo
+    storage_timestamp: 1652255341
+    key: dahlo
+    email: m.dahlo@gmail.com
+  henwie:
+    storage_key: henwie
+    storage_timestamp: 1651488692
+    key: henwie
+    email: henrike.wiemker@nbis.se
+  konere10:
+    storage_key: konere10
+    storage_timestamp: 1651485344
+    key: konere10
+    email: konere10@nbis.se
+  nbis:
+    storage_key: nbis
+    storage_timestamp: 1644583387
+    key: nbis
+    email: nbis@dahlo.se
+  norling:
+    storage_key: norling
+    storage_timestamp: 1651484660
+    key: norling
+    email: martin.norling@nbis.se
