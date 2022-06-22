@@ -32,7 +32,7 @@ home:
   hide_in_urls: false
 pages:
   type: regular
-  theme: quark
+  theme: nbis
   order:
     by: default
     dir: asc
@@ -216,6 +216,7 @@ http:
 accounts:
   type: regular
   storage: file
+  avatar: gravatar
 flex:
   cache:
     index:
