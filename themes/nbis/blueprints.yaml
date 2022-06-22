@@ -1,0 +1,18 @@
+name: Nbis
+slug: nbis
+type: theme
+version: 0.1.0
+description: Theme for the NBIS site, based on Quark.
+icon: rebel
+author:
+  name: nbis-sysdevs
+  email: martin.dahlo@scilifelab.uu.se
+homepage: https://github.com/nbis-sysdevs/grav-theme-nbis
+demo: http://demo.yoursite.com
+keywords: grav, theme, etc
+bugs: https://github.com/nbis-sysdevs/grav-theme-nbis/issues
+readme: https://github.com/nbis-sysdevs/grav-theme-nbis/blob/develop/README.md
+license: MIT
+
+dependencies:
+  - { name: grav, version: '>=1.6.0' }
