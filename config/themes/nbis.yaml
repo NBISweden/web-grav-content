@@ -1,0 +1,25 @@
+streams:
+  schemes:
+    theme:
+      type: ReadOnlyStream
+      prefixes:
+        '': ['user://themes/nbis', 'user://themes/quark']
+enabled: true
+production-mode: true
+grid-size: grid-lg
+header-fixed: true
+header-animated: true
+header-dark: false
+header-transparent: false
+sticky-footer: true
+blog-page: /blog
+spectre:
+  exp: false
+  icons: false
+custom_logo:
+  user/themes/nbis/images/logo/nbislogo-green.png:
+    name: nbislogo-green.png
+    type: image/png
+    size: 31889
+    path: user/themes/nbis/images/logo/nbislogo-green.png
+custom_logo_mobile: {  }
