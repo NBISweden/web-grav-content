@@ -1,6 +1,6 @@
 ---
 title: Events
-visible: true
+visible: false
 media_order: 'clipboard.js,CMOS.js,cpux86-ta.js,cpux86-ta.original.js,index.html,jslinux.js,KBD.js,linuxstart-20110820.tar.gz,PCEmulator.js,PIC.js,PIT.js,Serial.js,term.js,IMG20220116182418.jpg'
 ---
 
