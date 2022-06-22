@@ -216,6 +216,7 @@ http:
 accounts:
   type: regular
   storage: file
+  avatar: gravatar
 flex:
   cache:
     index:
