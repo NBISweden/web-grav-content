@@ -1,4 +1,4 @@
-version: '3' 
+version: '3'
 services:
   grav:
     image: linuxserver/grav:1.7.33
@@ -11,3 +11,10 @@ services:
       - .:/config/www/user
     ports:
       - 8888:80
+  css-rebuilder:
+    build:
+      context: ./themes
+    image: css-rebuilder
+    container_name: css
+    volumes:
+      - ./themes/:/themes
